@@ -11,7 +11,7 @@ body{
 .summary-container{
   width: 320px;
   height: 520px;
-  margin: 10% auto;
+  margin: 40% auto;
   background-color: #FFFFFF;
   border-radius: 16px;
 }
@@ -110,5 +110,6 @@ button >a{
   .summary-container{
       width: 370px;
       height: 595px;
+      margin: 10% auto;
   }
 }
