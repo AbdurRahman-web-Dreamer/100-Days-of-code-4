@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+body{
+  background-color: #D6E1FF;
+}
+
+.summary-container{
+  width: 320px;
+  height: 520px;
+  margin: 10% auto;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+}
+.summary-img{
+   width: 320px;
+  
+   border-top-left-radius:16px ;
+   border-top-right-radius:16px ;
+}
+.summary-title{
+   text-align: center;
+   font-size: 1.3rem;
+   font-weight: 900;
+   margin: 20px 0;
+}
+.summary-pera{
+    text-align: center;
+    margin: 20px auto;
+    color: #838998;
+    width: 250px;
+    font-size:.95rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+.annual-plan-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F8F9FF;
+    width: 270px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.plan-price{
+   padding-right: 30px;
+   line-height: 1.4rem;
+}
+.plan{
+   color: #25304B;
+   font-weight: 800;
+   font-size: .9rem;
+}
+.price{
+   font-weight: 600;
+   font-size: .9rem;
+   color: #828597;
+}
+.change-plan{
+  color: #4C3FA8;
+  font-weight: 900;
+  font-size: .9rem;
+}
+.payment-btn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  margin: 20px 0;
+} 
+button{
+  padding: 13px 60px;
+  font-weight: 800;
+  background-color: #382AE1;
+  border: 0;
+  border-radius: 10px;
+  transition: background-color 0.4s ease;
+}
+button:hover{
+  background-color: #766CF1;
+}
+button >a{
+  text-decoration: none;
+  color: #F2F2FF;
+  font-size: 14px;
+
+}
+.cancel{
+  text-decoration: none;
+  color: #8C95AB;
+  font-weight: 900;
+  font-size: .9rem;
+}
+@media screen and (min-width: 768px) {
+  body{
+    background:url('../images/pattern-background-desktop.svg') ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #DFE8FF;
+  }
+  .summary-img{
+      width: 370px;
+      height: 230px;
+  }
+  .summary-container{
+      width: 370px;
+      height: 595px;
+  }
+}
